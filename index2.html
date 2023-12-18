@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        table { 
+            width: 75%;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <p style="text-align: center;">แบบสอบถาม</p>
+    </h1>
+    <hr>
+    <form>
+        <table align="center" width="100%" border="0px"> 
+            <tr>
+                <td colspan="2">
+                    <b>ข้อมูลผู้ตอบแบบสอบถาม</b>
+                </td>
+            </tr>
+            <tr>
+                <td width="100px"><b>ชื่อ นามสกุล</b></td>
+                <td>
+                    <input type="text" style="width: 95%;">
+                </td>
+            </tr>
+            <tr>
+                <td><b>รหัสนักศึกษา</b></td>
+                <td>
+                    <input type="text" style="width: 95%;">
+                </td>
+            </tr>
+            <tr>
+                <td><b>เพศ</b></td>
+                <td>
+                    <input type="radio" name="gender">ชาย 
+                    <input type="radio" name="gender">หญิง
+                </td>
+            </tr>
+            <tr>
+                <td><b>สังกัดคณะ</b></td>
+                <td>
+                    <select name="" id="">
+                        <option value="">วิทยาศาสตร์</option>
+                        <option value="">วิทยาการคอมพิวเตอร์</option>
+                        <option value="">บริหารธึระกิจและการจัดการ</option>
+                        <option value="">มนุษยศาสตร์</option>
+                        <option value="">นิติศาสตร์</option>
+                        <option value="">ครุศาสตร์</option>
+                        <option value="">สาธารณสุขศาสตร์</option>
+                        <option value="">แพทย์แผนไทยและแพทย์ทางเลือก</option>
+                        <option value="">พยาบาลศาสตร์</option>
+                        <option value="">เทคโนโลยีอุสาหกรรม</option>
+                        <option value="">เกษตรศาสตร์</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>แม่สีที่ชื่นชอบ</b><br>
+                    <input type="checkbox">สีม่วง
+                    <input type="checkbox">สีชมพู
+                    <input type="checkbox">สีเขียว
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <b>ผลไม้ที่ชื่นชอบ</b><br>
+                    <input type="checkbox">ฝรั่ง
+                    <input type="checkbox">ส้ม
+                    <input type="checkbox">แอปเปิ้ล <br>
+                    <input type="checkbox">ลำใย
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <b>อาหารที่ชื่นชอบ</b><br>
+                    <input type="checkbox">ผัดกุ้ง
+                    <input type="checkbox">ข้าวหมูแดง
+                    <input type="checkbox">ก๋วยเตี๋ยว <br>
+                    <input type="checkbox">ผัดคะน้า
+                    <input type="checkbox">ต้มยำ
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="บันทึก">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
